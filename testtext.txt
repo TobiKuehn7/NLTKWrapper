@@ -1,0 +1,3 @@
+Let's see how default dictionaries could be used in a more substantial language processing task. Many language processing tasks — including tagging — struggle to correctly process the hapaxes of a text. They can perform better with a fixed vocabulary and a guarantee that no new words will appear. We can preprocess a text to replace low-frequency words with a special "out of vocabulary" token UNK, with the help of a default dictionary. (Can you work out how to do this without reading on?).
+This is a really bad sentence.
+And this one is really good.
